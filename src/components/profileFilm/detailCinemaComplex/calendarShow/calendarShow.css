@@ -1,0 +1,156 @@
+.calendershow-wapper {
+  position: relative;
+}
+.calendershow-wapper hr {
+  width: 80%;
+}
+.blockContent-left .cluster {
+  width: 100%;
+  height: 570px;
+  float: left;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.blockContent-left {
+  max-width: 255px;
+  padding: 15px 0 0 15px;
+  border-right: 0.5px solid rgba(131, 131, 131, 0.596);
+  height: 600px;
+  position: relative;
+}
+.cluster li .link-cluster {
+  color: black !important;
+  font-size: 1rem !important;
+  display: flex;
+}
+.calendershow-wapper ul li a:hover {
+  font-size: 1rem !important;
+}
+.calendershow-wapper ul li .link-cluster {
+  opacity: 0.5;
+}
+.calendershow-wapper ul li .link-cluster:hover {
+  opacity: 1;
+}
+.calendershow-wapper ul li .active {
+  font-size: 1rem !important;
+  opacity: 1 !important;
+}
+ul .item-cluster {
+  width: 100%;
+  text-align: left;
+}
+.cluster li span .img-cinema {
+  width: 50px;
+  margin-right: 5px;
+}
+.cluster li span .img-cinema img {
+  width: 100%;
+  height: 50px;
+  margin-right: 7px;
+}
+.cluster li span .cinema-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(3, 3, 3);
+}
+.content-calendar {
+  max-width: 620px;
+  text-align: left;
+}
+.content-calendar .filmOnCinema {
+  width: 635px;
+  position: absolute;
+  top: 65px;
+}
+/*======================================================= */
+.dayshowfilm {
+  font-size: 0.8rem;
+  position: relative;
+  width: 520px;
+  margin: auto;
+  padding-top: 25px;
+  display: inline-flex;
+}
+.dayshowfilm .selectDate span {
+  font-size: 1.5rem;
+}
+.dayshowfilm .active {
+  color: #fb4226;
+}
+.content-calendar #accordion {
+  height: 500px;
+}
+.blockContent {
+  width: 100%;
+  float: left;
+  min-height: 500px;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.card {
+  border: none;
+}
+.card-link a {
+  text-decoration: none;
+  color: black;
+}
+.filmOnCinema {
+  position: relative;
+}
+.filmOnCinema .info-film {
+  width: 75%;
+  float: left;
+}
+.filmOnCinema img {
+  width: 50px;
+  float: left;
+  margin-right: 7px;
+}
+.filmOnCinema .btn_c {
+  padding: 0 5px 1px;
+  background-color: #fb4226;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 3px;
+}
+.filmOnCinema .name_film {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0px;
+  color: rgba(55, 160, 60, 0.897);
+}
+.filmOnCinema .name-address {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.filmOnCinema .link-map {
+  font-size: 0.7rem;
+  padding-left: 5px;
+  color: #fb4226;
+}
+.card-link small {
+  color: gray;
+  font-size: 0.8rem;
+}
+.filmOnCinema .card-body .info-show .type_film {
+  width: 30px;
+  height: 26px;
+  margin-top: 8px;
+  position: absolute;
+  left: -14px;
+}
+.filmOnCinema .card-body .info-show .time_show {
+  color: #289b19;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 20px;
+  margin: 0;
+}
+.filmOnCinema .card-body .info-show .time_show:hover {
+  color: #fb4226;
+}

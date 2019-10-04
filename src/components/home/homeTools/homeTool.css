@@ -1,0 +1,47 @@
+.homeTool {
+  position: absolute;
+  width: 60%;
+  height: 70px;
+  padding: 15px;
+  line-height: 36px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  bottom: 0px;
+  display: block;
+  z-index: 2;
+  top: 465px;
+  left: 20%;
+}
+.homeTool-item {
+  margin: 0px;
+  padding: 5px 0px;
+  border-right: 1px solid rgba(202, 201, 201, 0.384);
+  border-radius: 0px;
+}
+.btn-button {
+  position: absolute;
+  width: 115px;
+  background-color: rgb(26, 24, 24);
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8rem;
+}
+.btn-buy {
+  padding: 5px 2px 0 0;
+}
+.btn-button:hover {
+  color: white;
+}
+.checkfilm {
+  font-size: 0.8rem;
+  border: none;
+}
+.form-control:focus {
+  border-color: unset;
+  color: #495057;
+  background-color: #fff;
+  border-color: white;
+  outline: unset;
+  box-shadow: none;
+}

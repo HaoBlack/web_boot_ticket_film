@@ -1,0 +1,49 @@
+.CinemaContent {
+  min-height: 705px;
+  position: relative;
+}
+.CinemaContent .blockContent {
+  width: 270px;
+  height: 705px;
+  float: left;
+  min-height: 500px;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.CinemaContent hr {
+  width: 80%;
+  margin: auto;
+}
+.item-content {
+  padding: 20px 20px 10px 20px;
+}
+.item-right {
+  padding: 0 0 0 10px;
+  line-height: 18px;
+}
+.item-content img {
+  width: 50px;
+  height: 50px;
+}
+.item-content .name_cine {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgb(107, 194, 107);
+  text-align: left;
+}
+.item-content .name_adr {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.item-content small {
+  font-size: 12px;
+  color: #949494;
+}
+.item-content a {
+  font-size: 0.8rem;
+  color: red;
+}
+.item-content a:hover {
+  color: red;
+}

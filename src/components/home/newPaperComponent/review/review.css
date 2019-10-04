@@ -1,0 +1,28 @@
+.review {
+  width: 80%;
+  margin: auto;
+}
+.review p {
+  margin: 5px 0;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.review article {
+  height: 120px;
+}
+.review p:hover {
+  color: red;
+}
+.article img {
+  border-radius: 5px;
+}
+.comment-footer {
+  padding: 0;
+}
+.comment-footer small {
+  padding-right: 20px;
+}
+.text-review {
+  width: 210px;
+  margin: 0;
+}

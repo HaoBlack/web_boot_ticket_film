@@ -1,0 +1,4 @@
+export const CONVERT_ADD_TO_EDIT = "CONVERT_ADD_TO_EDIT";
+export const CONVERT_EDIT_TO_ADD = "CONVERT_EDIT_TO_ADD";
+export const LIST_FILMS = "LIST_FILMS";
+

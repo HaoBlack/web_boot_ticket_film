@@ -1,0 +1,279 @@
+.checkoutTicket {
+  max-width: 100% !important;
+}
+.headerCheckoutTicket {
+  width: 100%;
+  transition: all 0.4s ease 0s;
+  position: fixed;
+  top: 0px;
+  z-index: 15;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.checkoutTicket .modalRight {
+  top: 0;
+  position: fixed;
+  height: 100%;
+  right: -28%;
+  width: 349px;
+  background-color: white;
+  z-index: 15;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.modalRight .contentFullRight {
+  overflow-y: scroll;
+  height: 100%;
+  padding-bottom: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.modalRight .contentFullRight .total {
+  position: relative;
+  border-bottom: 1px dashed #e9e9e9;
+  height: 80px;
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 36px;
+  color: #44c020 !important;
+}
+.modalRight .contentFullRight .total .cash {
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.modalRight .contentFullRight .filmName {
+  border-bottom: 1px dashed #e9e9e9;
+  padding-bottom: 12.5px;
+  font-size: 14px;
+  width: 100%;
+  display: block;
+  margin: 0;
+  font-weight: 600;
+}
+.modalRight .contentFullRight .filmName .btn_c {
+  background-color: #fb4226;
+  color: #fff;
+  border-radius: 4px;
+  padding: 0 5px;
+  float: left;
+  margin-right: 5px;
+  font-size: 12px;
+  vertical-align: 2px;
+  min-width: 33px;
+  text-align: center;
+  margin-top: 0.2em;
+}
+.modalRight .contentFullRight .filmName .contentCinema {
+  margin: 0;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+.modalRight .contentFullRight .chair {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-bottom: 1px dashed #e9e9e9;
+}
+.modalRight .contentFullRight .chair .info {
+  color: #fb4226;
+  text-align: left;
+}
+.modalRight .contentFullRight .chair .totalChair {
+  color: #44c020;
+}
+.modalRight .contentFullRight .infouser {
+  position: relative;
+  border-bottom: 1px dashed #e9e9e9;
+  padding-bottom: 12.5px;
+  margin-bottom: 12.5px;
+}
+.modalRight .infouser input.content {
+  width: calc(100% - 16px);
+  padding-right: 5px;
+  padding-left: 0;
+}
+.modalRight .infouser input.content:valid {
+  margin-top: 5px;
+  padding-top: 12.5px;
+  outline: 0;
+  border: 0;
+}
+.modalRight .contentFullRight .infouser label {
+  color: #9b9b9b;
+  font-size: 16px;
+  position: absolute;
+  transition: 0.3s;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin: 0;
+  font-size: 0.8rem;
+}
+.modalRight .contentFullRight .methodpay {
+  margin: 0 0 35% 0;
+  text-align: left;
+  font-size: 0.8rem;
+}
+.modalRight .contentFullRight .methodpay .titleMethodPay {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.modalRight .contentFullRight .methodpay .chooseMethod {
+  position: relative;
+  margin-bottom: 5px;
+  clear: both;
+}
+.modalRight .contentFullRight .methodpay .chooseMethod .paymentParent {
+  position: relative;
+}
+.modalRight .contentFullRight .methodpay .chooseMethod .paymentParent input {
+  background-color: #fff;
+  position: absolute;
+  top: 15%;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #4a90e2;
+  border-radius: 50%;
+  outline: 0;
+  -webkit-appearance: none;
+}
+.modalRight
+  .contentFullRight
+  .methodpay
+  .chooseMethod
+  .paymentParent
+  input:checked {
+  background: #4a90e2;
+}
+.modalRight .contentFullRight .methodpay .chooseMethod .paymentParent .icon {
+  border-radius: 5px;
+  margin-left: 35px;
+  margin-right: 15px;
+  width: auto;
+  pointer-events: none;
+  max-width: 40px;
+}
+.modalRight
+  .contentFullRight
+  .methodpay
+  .chooseMethod
+  .paymentParent
+  .titlechosen {
+  pointer-events: none;
+  position: absolute;
+  width: 185px;
+  left: 95px;
+  top: 50%;
+  font-weight: 500;
+  margin-bottom: 0;
+  transform: translateY(-50%);
+}
+.modalRight
+  .contentFullRight
+  .methodpay
+  .chooseMethod
+  .paymentParent
+  .titlechosen
+  .wrap-methodnote {
+  width: 100%;
+}
+.modalRight
+  .contentFullRight
+  .methodpay
+  .chooseMethod
+  .paymentParent
+  .titlechosen
+  .wrap-methodnote
+  .methodnote {
+  font-size: 11px;
+  color: red;
+  width: fit-content;
+}
+
+.modalRight .contentFullRight .notive {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 4%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 60px;
+  margin-right: 4px;
+  background: #fff;
+  text-align: center;
+}
+.modalRight .contentFullRight .notive .errorbook {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: none;
+  color: #fb4226;
+  font-size: 16px;
+  text-align: center;
+}
+.modalRight .contentFullRight .notive .icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  transform: translate(45px, 1px);
+  float: left;
+}
+.modalRight .contentFullRight .notive .title {
+  font-size: 0.69rem;
+}
+.modalRight .contentFullRight .notive .title span {
+  color: rgb(255, 218, 7);
+  padding: 0 3px;
+}
+.modalRight .lickBuyTicket {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #919090;
+  margin: 0;
+  padding: 12px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.headerCheckoutTicket .nav-link:hover {
+  color: unset !important;
+  cursor: pointer !important;
+}
+.headerCheckoutTicket .col-10 .linkcheck {
+  border-radius: unset;
+  background: none;
+}
+.headerCheckoutTicket .col-10 .linkcheck span {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.headerCheckoutTicket .col-10 .linkcheck small {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+.headerCheckoutTicket .col-10 .active {
+  border-top: 1.5px solid red;
+  color: red !important;
+}
+.headerCheckoutTicket .col-2 .account .img-acc {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.headerCheckoutTicket .col-2 .account {
+  position: relative;
+  padding-right: 10px;
+  cursor: pointer;
+  height: 80px;
+  display: table-cell;
+  vertical-align: middle;
+}

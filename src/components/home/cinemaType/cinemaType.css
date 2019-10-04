@@ -1,0 +1,16 @@
+.cinema-all {
+  width: 60%;
+  padding: 2% 0;
+}
+.ListCinema {
+  border: 1px solid rgba(196, 194, 194, 0.5);
+}
+.CinemaContent {
+  border-top: 1px solid rgba(196, 194, 194, 0.5);
+  border-bottom: 1px solid rgba(196, 194, 194, 0.5);
+
+}
+.ListFilmOfCinema{
+  border: 1px solid rgba(196, 194, 194, 0.5);
+    
+}

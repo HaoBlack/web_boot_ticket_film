@@ -1,0 +1,25 @@
+.list-cinema {
+  min-height: 705px;
+  border-right: 1px solid rgba(196, 194, 194, 0.5);
+}
+.list-cinema .blockContent {
+  width: 127px;
+  height: 705px;
+  float: left;
+  min-height: 500px;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.items {
+  padding: 20px;
+  margin: 0;
+}
+.items img {
+  width: 50px;
+  height: 50px;
+}
+hr {
+  margin: auto;
+  width: 50px;
+}

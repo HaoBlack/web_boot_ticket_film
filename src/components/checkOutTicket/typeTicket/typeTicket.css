@@ -1,0 +1,212 @@
+.checkcheckTypeTicket {
+  width: 100%;
+}
+#left-CheckOut {
+  position: fixed;
+  top: 80px;
+  width: 100%;
+  min-height: calc(100% - 80px);
+  background-image: url(/img/img-checkoutTicket/hung-than-dai-duong-tham-sat-47-meters-down-uncaged-15668199718985.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+#left-CheckOut .modalLefft {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
+}
+#left-CheckOut .back {
+  cursor: pointer;
+  position: fixed;
+  top: 100px;
+  height: 40px;
+  width: 100px;
+  padding-top: 8px;
+  text-align: center;
+  border-right: 1px solid white;
+}
+#left-CheckOut .back img {
+  height: 23px;
+  width: 23px;
+  vertical-align: middle;
+}
+#left-CheckOut .titleFilm {
+  position: fixed;
+  text-align: left;
+  color: white;
+  max-width: 230px;
+  left: 30px;
+  bottom: 100px;
+}
+#left-CheckOut .titleFilm .info1 {
+  font-size: 0.7rem;
+  margin-bottom: 5px;
+}
+#left-CheckOut .titleFilm .info2 {
+  font-size: 1.3rem;
+  margin-bottom: 13px;
+}
+#left-CheckOut .titleFilm .info2 .btn_c {
+  background: red;
+  padding: 0px 8px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  margin-right: 5px;
+  vertical-align: 3px;
+  font-weight: 700;
+  padding-bottom: 2px;
+}
+#left-CheckOut .titleFilm .info3 {
+  font-size: 0.9rem;
+}
+.checkTypeTicket .contentTicketFilm {
+  max-width: 75%;
+  margin-top: 32px;
+  margin-left: 25%;
+  padding-top: 25px !important;
+  font-size: 0.9rem;
+}
+.checkTypeTicket .contentTicketFilm .ticket {
+  max-width: 800px;
+  margin: auto;
+}
+.contentTicketFilm .ticket .topContent .logoCinema {
+  width: 40px;
+  float: left;
+  margin-right: 5px;
+}
+.contentTicketFilm .ticket .topContent .logoCinema img {
+  width: 100%;
+}
+.contentTicketFilm .ticket .contentCinema .name {
+  color: rgba(38, 155, 27, 0.767);
+  font-weight: 600;
+}
+.contentTicketFilm .ticket .contentCinema small {
+  color: rgba(138, 137, 137, 0.692);
+  font-weight: 500;
+}
+.contentTicketFilm .ticket .ticketType {
+  margin-top: 40px;
+}
+.contentTicketFilm .ticket .ticketType .warper-ticket-type {
+  padding: 25px 0;
+  border-top: 1px solid #9c9b9b69;
+}
+.contentTicketFilm .ticket .ticketType .warper-ticket-type .typeTicket {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.contentTicketFilm .ticket .ticketType .warper-ticket-type .priceTicket {
+  color: #219607b5;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.contentTicketFilm .ticket .ticketType .warper-ticket-type .btn-del {
+  background: none;
+  border: unset;
+  color: red;
+  padding: 0 20px;
+  font-weight: 500;
+  transform: scaleX(4) !important;
+}
+.contentTicketFilm .ticket .ticketType .warper-ticket-type .btn-del:focus {
+  outline: none;
+}
+.contentTicketFilm .ticket .ticketType .warper-ticket-type .btn-add {
+  background: none;
+  border: unset;
+  color: red;
+  padding: 0 20px;
+  font-weight: 500;
+  transform: scale(1.5) !important;
+}
+.contentTicketFilm .ticket .ticketType .warper-ticket-type .btn-add:focus {
+  outline: none;
+}
+.contentTicketFilm .ticket .ticketType .warper-ticket-type .ticket-amount {
+  border: 1px solid #b7b6b6b3;
+  border-radius: 2px;
+  padding: 5px 11px;
+}
+.checkTypeTicket .contentTicketFilm .ticket .detailTicket {
+  position: static;
+  width: 800px;
+  bottom: 25px;
+  margin-top: 30px
+}
+.detailTicket .chosenTicket {
+  height: 100px;
+  border: 1px solid #b4b1b1a6;
+  border-radius: 3px;
+}
+.detailTicket .chosenTicket .chosenContent {
+  float: left;
+  transform: translate(26px, 30px);
+  font-size: 0.7rem;
+  color: gray;
+}
+.detailTicket .chosenTicket .chosenContent .totalMoney {
+  font-size: 1.3rem;
+  color: #6cb95c;
+  font-weight: 500;
+}
+.detailTicket .chosenTicket .chosenBtn {
+  position: relative;
+  float: right;
+  height: 100%;
+  background-image: linear-gradient(80deg, #06b415 0, #4fd64fd4 100%);
+  padding: 40px 24px;
+  color: white;
+  cursor: pointer;
+}
+.checkTypeTicket .contentTicketFilm .ticket .detailTicket .contact {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+.checkTypeTicket .contentTicketFilm .ticket .detailTicket .contact .note {
+  font-size: 0.7rem;
+  color: #808080c9;
+}
+.checkTypeTicket .contentTicketFilm .ticket .detailTicket .contact .hot {
+  margin-top: 15px;
+}
+.checkTypeTicket .contentTicketFilm .ticket .detailTicket .contact .hotline {
+  text-align: right;
+  display: inline-block;
+  line-height: 13px;
+}
+.checkTypeTicket
+  .contentTicketFilm
+  .ticket
+  .detailTicket
+  .contact
+  .hotline
+  .costcall {
+  font-size: 0.5rem;
+  color: red;
+}
+.checkTypeTicket
+  .contentTicketFilm
+  .ticket
+  .detailTicket
+  .contact
+  .hotline
+  .hotLineTitle {
+  margin-bottom: 1px;
+}
+.checkTypeTicket .contentTicketFilm .ticket .detailTicket .contact .hot .phone {
+  display: inline-block;
+  font-size: 2.2rem;
+}
+/* hover */
+.detailTicket .chosenTicket .chosenBtn:hover #left-CheckOut {
+    opacity: 0;
+}

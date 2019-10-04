@@ -1,0 +1,38 @@
+.calendershow-wapper{
+    background-color: white;
+    border-radius: 5px;
+}
+.detailCinemaComplex ul li a {
+  color: white !important;
+}
+.nav {
+  display: block;
+}
+.detailCinemaComplex ul li a:hover {
+  border: unset;
+  font-size: 1.2rem;
+  transition: all 0.1s;
+}
+.detailCinemaComplex ul li .active {
+  border: unset;
+  font-size: 1.2rem;
+  z-index: 15;
+  color: red !important;
+  background: none !important;
+}
+.detailCinemaComplex ul li a {
+  font-size: 1rem;
+}
+.btn-xt {
+  background: unset;
+  border: 0.5px solid rgb(170, 170, 170);
+  border-radius: 5px;
+  color: gray;
+  font-weight: 500;
+  padding: 5px 25px;
+}
+.btn-xt:hover {
+  background: #fb4226;
+  color: white;
+  transition: all 1s;
+}

@@ -1,0 +1,154 @@
+#mainContent {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+#ModalplaytrailerDetail .modal-dialog {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 5%;
+}
+#mainContent .dark {
+  background-color: rgb(0, 0, 0);
+}
+.detailMainTop {
+  padding-top: 50px;
+  position: relative;
+}
+.posterLandscapeFilm {
+  filter: blur(15px);
+  margin: -11px 0 -5px -10px;
+  width: calc(100% + 5px);
+}
+.mainContentInfo {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate3d(-50%, -50%, 0);
+}
+.posterMain {
+  border-radius: 5px;
+  background-image: url(/img/films/it_chapter_two-_vietnamese_poster_2.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width: 217.5px;
+  height: 321.69px;
+}
+.mainMaxWidth2 {
+  max-width: 870px;
+  float: none;
+  margin: auto;
+  clear: both;
+}
+.posterMain .playTrailerfilm {
+  background: none;
+  border: none;
+  position: absolute;
+  z-index: 3;
+  width: 60px;
+  left: 28%;
+  top: 35%;
+  opacity: 0;
+}
+.posterMain .playTrailerfilm:focus {
+  outline: unset;
+}
+.posterMain:hover .playTrailerfilm:hover {
+  opacity: 0.7;
+}
+.posterMain:hover .playTrailerfilm {
+  opacity: 1;
+  transition: all 0.1s;
+}
+.mainInfo {
+  position: absolute;
+  top: 21%;
+  left: 26%;
+  color: white;
+  line-height: 28px;
+}
+.mainInfo .btn_c {
+  padding: 0 5px 1px;
+  background-color: #fb4226;
+  font-size: 1rem;
+  color: white;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.detailMainTop .styleGradient {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(to top, #0a2029, transparent 25%);
+}
+.mainInfo .name-Film {
+  font-size: 1.2rem;
+}
+.mainInfo .time-show {
+  font-size: 0.8rem;
+}
+.mainInfo .btn-buy {
+  color: white;
+  background-color: #fb4226;
+  border: unset;
+  padding: 6px 25px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.circleStart {
+  float: right;
+  top: 60px;
+  color: white;
+  text-align: center;
+}
+.circleStart .ng-binding {
+  font-size: 0.8rem;
+  margin: 5px auto;
+}
+.c100 {
+  position: relative;
+  font-size: 126px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 5px;
+}
+.c100 .circleBorder {
+  width: 100%;
+  height: 126px;
+  background: 0 0;
+  border: 7.5px solid #3a3a3a;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+}
+.c100 > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  line-height: 2.4em;
+  font-size: 0.42em;
+  color: #fff;
+}
+.c100 .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(0, 1em, 1em, 0.5em);
+}
+.c100 .bar {
+  z-index: 5;
+  border: 0.06em solid #7ed321;
+  width: 1em;
+  height: 1em;
+  clip: rect(0, 0.5em, 1em, 0);
+  border-radius: 50%;
+}

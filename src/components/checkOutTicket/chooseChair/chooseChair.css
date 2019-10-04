@@ -1,0 +1,263 @@
+.chooseChair {
+  /* background: aqua; */
+  margin-left: 54px;
+  margin-top: 33px;
+  width: 71.2%;
+  text-align: left;
+  padding-top: 30px;
+  display: none;
+  float: left;
+}
+#seat {
+  max-width: 900px;
+  margin: auto;
+}
+.chooseChair .topContent {
+  width: 80%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+}
+.chooseChair .topContent .titleContent {
+  width: 100%;
+}
+.chooseChair .topContent .rightTitle {
+  float: right;
+  text-align: center;
+  width: 100px;
+}
+.chooseChair .topContent .rightTitle p {
+  margin: 0;
+}
+.chooseChair .topContent .rightTitle .info1 {
+  font-size: 0.5rem;
+}
+.chooseChair .topContent .rightTitle .info2 {
+  font-size: 1.5rem;
+  color: red;
+  transform: scale(1.7);
+}
+.chooseChair .topContent .logoCinema {
+  width: 40px;
+  float: left;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+.chooseChair .topContent .logoCinema img {
+  width: 100%;
+}
+.chooseChair .contentCinema {
+  float: left;
+}
+.chooseChair .contentCinema .name {
+  color: rgba(38, 155, 27, 0.767);
+  font-weight: 600;
+}
+.chooseChair .contentCinema small {
+  color: rgba(138, 137, 137, 0.692);
+  font-weight: 500;
+}
+.chooseChair .seatMap {
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+.seatMap .panzoom {
+  margin: auto;
+  text-align: center;
+}
+.seatMap .logo {
+  width: 90%;
+  margin: auto;
+  z-index: 1;
+}
+.chooseChair .seatMap .listSeat {
+  margin-top: -40px;
+}
+.chooseChair .seatMap .listSeat .rowSeat {
+  margin-top: -5px;
+}
+.listSeat .rowSeat .rowname {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 25px;
+}
+.listSeat .rowSeat .rowname .title {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.listSeat .rowSeat .seatNotChoose {
+  background: rgb(54, 53, 53);
+}
+.listSeat .rowSeat .seatVip {
+  background: rgb(255, 196, 0);
+}
+.listSeat .rowSeat .seatchoosing {
+  background: rgb(68, 192, 32);
+}
+.listSeat .rowSeat .seatNull {
+  opacity: 0;
+  background-color: transparent;
+}
+.listSeat .rowSeat .exit {
+  transform: rotate(-90deg);
+}
+.listSeat .rowSeat .exit .entrance {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+.listSeat .rowSeat .seat {
+  width: 22px;
+  position: relative;
+  display: inline-block;
+  height: 22px;
+  border-radius: 3px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.listSeat .rowSeat .seat .numberSeat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+}
+.listSeat .rowSeat .seat .notChoose {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+/* Note */
+.seatMap .noteSeat {
+  margin-top: 50px;
+  text-align: center;
+}
+.seatMap .noteSeat .typeSeats {
+  margin-top: 5px;
+}
+.seatMap .noteSeat .typeSeats .typeSeat {
+  margin-right: 20px;
+  display: inline-block;
+}
+.seatMap .noteSeat .typeSeats .typeSeat .nameSeat {
+  display: inline-block;
+  color: gray;
+  font-size: 0.7rem;
+}
+.seatMap .noteSeat .typeSeats .typeSeat .colorSeat {
+  display: inline-block;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+/* color Null */
+.seatMap .noteSeat .typeSeats .typeSeat .colorNull {
+  height: 10px;
+  width: 10px;
+  background-color: gray;
+}
+/* color couple */
+.seatMap .noteSeat .typeSeats .typeSeat .colorCouple {
+  height: 10px;
+  width: 20px;
+  background-color: gray;
+}
+/* color sofa */
+.seatMap .noteSeat .typeSeats .typeSeat .colorSofa {
+  height: 10px;
+  width: 30px;
+  background-color: rgb(114, 44, 4);
+}
+/* color vip */
+.seatMap .noteSeat .typeSeats .typeSeat .colorVip {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(255, 196, 0);
+}
+/* color deluxe */
+.seatMap .noteSeat .typeSeats .typeSeat .colorDeluxe {
+  height: 10px;
+  width: 10px;
+  background-color: rgb(74, 144, 226);
+}
+/* color first class */
+.seatMap .noteSeat .typeSeats .typeSeat .colorFrist {
+  height: 10px;
+  width: 10px;
+  background-color: #50e3c2;
+}
+/* color choosing */
+.seatMap .noteSeat .typeSeats .typeSeat .colorChoosing {
+  height: 10px;
+  width: 10px;
+  background-color: #44c020;
+  border: 1px solid #e9e9e9;
+}
+/* color chosen */
+.seatMap .noteSeat .typeSeats .typeSeat .colorChosen {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  background-color: transparent;
+  border: 1px solid #e9e9e9;
+}
+.seatMap .noteSeat .typeSeats .typeSeat .colorChosen .notChoose {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 7px;
+  width: 7px;
+}
+/* color not choose */
+.seatMap .noteSeat .typeSeats .typeSeat .colornotChoose {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  background-color: black;
+}
+.seatMap .noteSeat .typeSeats .typeSeat .colornotChoose .notChoose {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 7px;
+  width: 7px;
+}
+.seatMap .noteSeat .positionViews {
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.seatMap .noteSeat .positionViews .positionview {
+  display: inline-block;
+  margin-right: 20px;
+}
+.seatMap .noteSeat .positionViews .positionview .lineview {
+  margin-right: 8px;
+  vertical-align: middle;
+  width: 28px;
+  display: inline-block;
+  content: "";
+}
+.seatMap .noteSeat .positionViews .positionview .titleview {
+  font-size: 0.7rem;
+  color: gray;
+}
+/* Line center */
+.seatMap .noteSeat .positionViews .positionview .lineCenter {
+  border-bottom: 2px dashed #fa7f6c;
+}
+/* Line beautiful */
+.seatMap .noteSeat .positionViews .positionview .lineBeautiful {
+  border-bottom: 2px solid #fa7f6c;
+}

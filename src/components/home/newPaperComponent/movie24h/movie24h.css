@@ -1,0 +1,28 @@
+.movi24h {
+  width: 80%;
+  margin: auto;
+}
+.movi24h p {
+  margin: 5px 0;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.movi24h article {
+  height: 120px;
+}
+.movi24h p:hover {
+  color: red;
+}
+.article img {
+  border-radius: 5px;
+}
+.comment-footer {
+  padding: 0;
+}
+.comment-footer small {
+  padding-right: 20px;
+}
+.text-movie24h{
+    width: 210px;
+margin: 0
+}

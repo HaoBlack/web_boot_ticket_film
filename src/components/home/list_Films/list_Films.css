@@ -1,0 +1,35 @@
+#sapchieu {
+  width: 74.5%;
+  padding: 0px;
+}
+#dangchieu {
+  width: 74.5%;
+  padding: 0px;
+}
+.list_Films {
+  padding-top: 3%;
+  position: relative;
+}
+.container ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin-right: 2%;
+  line-height: 50px;
+}
+
+.nav {
+  display: block;
+}
+.list_Films ul li a:hover {
+  border: unset;
+  font-size: 1.6rem;
+  transition: all 0.1s;
+}
+.list_Films ul li .active {
+  border: unset;
+  font-size: 1.6rem;
+  z-index: 15;
+  color: red !important;
+}
+

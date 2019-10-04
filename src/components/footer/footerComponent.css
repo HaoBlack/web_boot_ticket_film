@@ -1,0 +1,53 @@
+footer {
+  background-color: #222;
+  color: rgb(116, 111, 111);
+}
+.maxwithfooter {
+  max-width: 860px;
+  margin: auto;
+}
+.maxwithfooter p {
+  margin: 5px 0;
+  font-size: 0.7rem;
+  color: white;
+  font-weight: 500;
+}
+.maxwithfooter hr {
+  width: 100%;
+  background-color: rgb(179, 175, 175);
+  margin: 15px 0;
+}
+.maxwithfooter a {
+  font-size: 0.8rem;
+  color: rgb(116, 111, 111);
+  font-weight: 500;
+}
+.image-parner {
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  border-radius: 50%;
+}
+.iconApp {
+  margin: 5px;
+  width: auto;
+  height: 30px;
+}
+.maxwithfooter .iconZion img {
+  float: left;
+  width: 80px;
+  height: auto;
+}
+.maxwithfooter .iconBoCo {
+  float: right;
+}
+.maxwithfooter .iconBoCo img {
+  width: 130px;
+}
+.infocomp {
+  margin-right: 56px;
+}
+.infocomp .text-infocomp {
+  color: rgb(116, 111, 111);
+  font-size: 0.7rem;
+}

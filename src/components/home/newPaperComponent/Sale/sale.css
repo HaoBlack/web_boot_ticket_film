@@ -1,0 +1,28 @@
+.sale {
+  width: 80%;
+  margin: auto;
+}
+.sale p {
+  margin: 5px 0;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.sale article {
+  height: 120px;
+}
+.sale p:hover {
+  color: red;
+}
+.article img {
+  border-radius: 5px;
+}
+.comment-footer {
+  padding: 0;
+}
+.comment-footer small {
+  padding-right: 20px;
+}
+.text-sale {
+  width: 210px;
+  margin: 0;
+}

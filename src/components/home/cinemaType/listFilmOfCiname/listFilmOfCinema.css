@@ -1,0 +1,70 @@
+.listFilmOfCiname {
+  width: 100%;
+  position: relative;
+}
+.listFilmOfCiname hr {
+  width: 80%;
+}
+.item-content {
+  padding: 20px 20px 10px 20px;
+  position: relative;
+}
+.card-header {
+  background: unset;
+  padding: 20px 0;
+}
+.listFilmOfCiname .blockContent {
+  width: 414px;
+  height: 705px;
+  float: left;
+  min-height: 500px;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.card {
+  border: none;
+}
+.card-link a {
+  text-decoration: none;
+  color: black;
+}
+.card-link .info-film {
+  width: 75%;
+  float: left;
+}
+.card-link img {
+  width: 50px;
+  float: left;
+  margin-right: 7px;
+}
+.card-link .btn_c {
+  padding: 0 5px 1px;
+  background-color: #fb4226;
+  font-size: 0.8rem;
+  color: white;
+  border-radius: 3px;
+}
+.card-link .name_film {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-left: 5px;
+  color: black;
+}
+.card-link small {
+  color: gray;
+}
+.card-body .info-show .type_film {
+  width: 30px;
+  height: 26px;
+}
+.card-body .info-show .time_show {
+  color: #417505;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-left: 20px;
+  margin: 0;
+}
+.item-content .time-show:hover {
+  color: #fb4226;
+}
